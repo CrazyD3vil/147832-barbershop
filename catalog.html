@@ -34,7 +34,6 @@
       </div>
     </div>
   </header>
-
   <main class="container">
     <h1 class="product-type-page-name">Средства для ухода</h1>
     <nav class="breadcrumbs">
@@ -44,57 +43,33 @@
         <li><a>Cредства для ухода</a></li>
       </ul>
     </nav>
-
-    <div class="product-filter">
-      <section class="products-manufacters">
-        <h2>Производители:</h2>
-        <ul>
-          <li>
-            <label>
-              <input type="checkbox" name="manufacter-baxter" checked>Baxter of California</label>
-          </li>
-
-          <li>
-            <label>
-              <input type="checkbox" name="manufacter-mrnatty">Mr Natty</label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="manufacter-suavecito" checked>Suavecito</label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="manufacter-malingoetz">Malin+Goetz</label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="manufacter-murrays">Murray's</label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" name="manufacter-americancrew" checked>American Crew</label>
-          </li>
-        </ul>
-      </section>
-      <section class="product-type">
-        <h2>Группы товаров</h2>
-        <ul>
-          <li>
-            <label>
-              <input name="product-radio" type="radio" value="rad-shaving-accessories">Бритвенные принадлежности</label>
-          </li>
-          <li>
-            <label>
-              <input name="product-radio" type="radio" value="rad-care-devices" checked>Средства для ухода</label>
-          </li>
-          <li>
-            <label>
-              <input name="product-radio" type="radio" value="rad-accessories">Аксессуары</label>
-          </li>
-        </ul>
-      </section>
+    <form class="product-filter" action="https://echo.htmlacademy.ru" method="post">
+      <fieldset class="filter-manufacters">
+        <legend>Производители:</legend>
+        <label for="baxter">
+          <input id="baxter" type="checkbox" checked>Baxter of California</label>
+        <label for="mrnatty">
+          <input id="mrnatty" type="checkbox">Mr Natty</label>
+        <label for="suavecito">
+          <input id="suavecito" type="checkbox" checked>Suavecito</label>
+        <label for="malingoetz">
+          <input id="malingoetz" type="checkbox">Malin+Goetz</label>
+        <label for="murrays">
+          <input id="murrays" type="checkbox">Murray's</label>
+        <label for="americancrew">
+          <input id="americancrew" type="checkbox" checked>American Crew</label>
+      </fieldset>
+      <fieldset class="filter-type">
+        <legend>Группы товаров</legend>
+        <label for="shaving-radio">
+          <input id="shaving-radio" name="product-type" type="radio" value="shaving-devices">Бритвенные принадлежности</label>
+        <label for="care-radio">
+          <input id="care-radio" name="product-type" type="radio" value="care-devices" checked>Средства для ухода</label>
+        <label for="accessories-radio">
+          <input id="accessories-radio" name="product-type" type="radio" value="accessories">Аксессуары</label>
+      </fieldset>
       <a class="filter-show-btn" href="#">Показать</a>
-    </div>
+    </form>
     <div class="product-catalog">
       <article class="product-card">
         <a href=""><img src="http://placehold.it/150x100" alt='Набор для путешествий "Baxter of California"'></a>
