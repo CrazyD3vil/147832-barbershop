@@ -43,21 +43,21 @@
         <li><a>Cредства для ухода</a></li>
       </ul>
     </nav>
-    <form class="product-filter" action="https://echo.htmlacademy.ru" method="post">
+    <form class="product-filter" action="https://echo.htmlacademy.ru" method="get">
       <fieldset class="filter-manufacters">
         <legend>Производители:</legend>
         <label for="baxter">
-          <input id="baxter" type="checkbox" checked>Baxter of California</label>
+          <input id="baxter" type="checkbox" name="manufacter-baxter" checked>Baxter of California</label>
         <label for="mrnatty">
-          <input id="mrnatty" type="checkbox">Mr Natty</label>
+          <input id="mrnatty" type="checkbox" name="manufacter-mrnatty">Mr Natty</label>
         <label for="suavecito">
-          <input id="suavecito" type="checkbox" checked>Suavecito</label>
+          <input id="suavecito" type="checkbox" name="manufacter-suavecito" checked>Suavecito</label>
         <label for="malingoetz">
-          <input id="malingoetz" type="checkbox">Malin+Goetz</label>
+          <input id="malingoetz" type="checkbox" name="manufacter-malingoetz">Malin+Goetz</label>
         <label for="murrays">
-          <input id="murrays" type="checkbox">Murray's</label>
+          <input id="murrays" type="checkbox" name="manufacter-murrays">Murray's</label>
         <label for="americancrew">
-          <input id="americancrew" type="checkbox" checked>American Crew</label>
+          <input id="americancrew" type="checkbox" name="manufacter-ameicancrew" checked>American Crew</label>
       </fieldset>
       <fieldset class="filter-type">
         <legend>Группы товаров</legend>
@@ -68,7 +68,7 @@
         <label for="accessories-radio">
           <input id="accessories-radio" name="product-type" type="radio" value="accessories">Аксессуары</label>
       </fieldset>
-      <a class="filter-show-btn" href="#">Показать</a>
+      <input class="filter-activate-btn" type="submit" href="#" value="Показать">
     </form>
     <div class="product-catalog">
       <article class="product-card">
