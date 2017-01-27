@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'PT Sans';
+  src: url("../fonts/web/ptsansnarrow.woff2") format("woff2");
+  src: url("../fonts/web/ptsansnarrow.woff") format("woff");
+  src: url("../fonts/web/ptsansnarrowbold.woff2") format("woff2");
+  src: url("../fonts/web/ptsansnarrowbold.woff") format("woff");
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 24pt;
+  color: #000000;
+  margin: 0;
+}
+
+h1 {
+  font-size: 30pt;
+  line-height: 42pt;
+}
+
+h2 {
+  font-size: 24pt;
+  line-height: 30pt;
+}
+
+
+/* Картинка к юзер-блоку */
+
+a.user-login {
+  background-image: url("../img/login-icon.png");
+  background-repeat: no-repeat;
+  padding-left: 31px;
+}
+
+
+/* Убираем отступы у "хлебных крошек" и у пунктов главного меню */
+
+.breadcrumbs ul {
+  padding-left: 0;
+}
+
+.main-navigation ul {
+  padding-left: 0;
+}
+
+
+/* Убираем маркеры у "хлебных крошек" */
+
+.breadcrumbs li,
+.main-navigation li {
+  list-style-type: none;
+  display: inline;
+}
+
+
+/* Убираем отступы у списка "комплектация товара" */
+
+.product-including ul {
+  padding-left: 0;
+}
+
+
+/* Убираем маркеры у элементов списка "комплектация товара" */
+
+.product-including li {
+  list-style-type: none;
+}
+
+
+/* Добавляем декоративный "ромбик" к элементам списка "комплектация товара" */
+
+.product-including span {
+  background-image: url("../img/catalog-item/shape_2.png");
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  padding-left: 19px;
+}
+
+
+/* Добавляем декоративный "ромбик" к "хлебным крошкам" */
+
+.breadcrumbs a {
+  background-image: url("../img/catalog-item/shape_2.png");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  padding-left: 17px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.breadcrumbs ul>li:first-child>a {
+  padding-left: 0;
+}
+
+
+/* Убираем у последнего элемента "хлебных крошек" декоративный "ромбик" */
+
+.breadcrumbs ul>li:last-child>a {
+  background-image: none;
+}
+
+
+/* Пытаюсь оформить карточки товара
+div.product-card {
+  width: 220px;
+  height: 286px;
+  display: block;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.product-card img {
+  margin-bottom: -8px;
+}
+
+div.product-description {
+  width: 220px;
+  height: 121px;
+}
+
+a.product-name {
+  display: block;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 17px;
+  padding-bottom: 16px;
+  color: #000000;
+  text-transform: none;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+div.buy-section {
+  display: block;
+  width: 187px;
+  height: 43px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.product-price {
+  display: inline-block;
+  width: 109px;
+  height: 43px;
+  background-color: #e5e5e5;
+}
+
+.buy-btn {
+  display: inline-block;
+  margin-left: -5px;
+  width: 68px;
+  height: 43px;
+  background-color: #000000;
+}
+
+a.buy-btn {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+*/
+
+span.social-text {
+  display: none;
+}
+
+.social-btn {
+  background-color: #000000;
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  margin-right: 6px;
+  background-repeat: no-repeat;
+}
+
+.social-btn-vk {
+  background-image: url("../img/social-sprite.png");
+  background-position: 8px center;
+}
+
+.social-btn-fb {
+  background-image: url("../img/social-sprite.png");
+  background-position: -40px center;
+}
+
+.social-btn-inst {
+  background-image: url("../img/social-sprite.png");
+  background-position: -89px center;
+}
+
+.social-btn-new {
+  display: none;
+}
