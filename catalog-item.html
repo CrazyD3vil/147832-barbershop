@@ -4,97 +4,106 @@
 <head>
   <meta charset="utf-8">
   <title>Барбершоп "Бородинский"</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-  <header class="main-header">
-    <div class="container">
-      <img class="header-logo" src="img/header-logo.png" weight="111px" height="24px" alt="Барбершоп">
-      <nav class="main-navigation">
-        <ul>
-          <li>
-            <a href="#">Информация</a>
-          </li>
-          <li>
-            <a href="#">Новости</a>
-          </li>
-          <li>
-            <a href="#">Прайс-лист</a>
-          </li>
-          <li>
-            <a href="#">Магазин</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="user-block">
-        <a class="user-login" href="#">Вход</a>
-      </div>
-    </div>
-  </header>
-  <main class="container">
-    <h1 class="product-type-page-name">Набор для путешествий "Baxter of California"</h1>
-    <nav class="breadcrumbs">
-      <ul>
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Магазин</a></li>
-        <li><a href="#">Cредства для ухода</a></li>
-        <li><a>Набор для путешествий "Baxter of California"</a></li>
-      </ul>
-    </nav>
-    <div class="product-card">
-      <div class="product-photos">
-        <img src="img/catalog-item/bigphoto.jpg" width="460px" height="498px" class="big-product-photo" alt='Набор для путешествий "Baxter of California"'>
-        <img src="img/catalog-item/small_photo-1.jpg" width="140px" height="149px" class="mini-product-photo" alt='Набор для путешествий "Baxter of California"'>
-        <img src="img/catalog-item/small_photo-2.jpg" width="140px" height="149px" class="mini-product-photo" alt='Набор для путешествий "Baxter of California"'>
-        <img src="img/catalog-item/small_photo-3.jpg" width="140px" height="149px" class="mini-product-photo" alt='Набор для путешествий "Baxter of California"'>
-      </div>
-      <div class="product-info">
-        <div class="product-vailability">Есть в наличии</div>
-        <div class="product-vendor-code">Артикул: DEXTER-AE</div>
-        <p class="product-description">Travel Kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бриться, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-        <div class="product-buy-section">
-          <b class="product-price">2 900 руб.</b>
-          <a href="#" class="product-buy-button">Купить</a>
-        </div>
-        <div class="product-including">
-          <h2>В набор входят:</h2>
+  <div class="site-wrapper">
+    <header class="main-header">
+      <div class="container clearfix">
+        <nav class="main-navigation">
           <ul>
-            <li><span>Средство для умывания (50 мл)</span></li>
-            <li><span>Увлажняющий крем (50 мл)</span></li>
-            <li><span>Крем для бритья (50 мл)</span></li>
-            <li><span>Крем после бритья, шампунь (50 мл)</span></li>
-            <li><span>Удобная кожаная косметичка</span></li>
+            <li>
+              <img class="header-logo" src="img/header-logo.png" weight="111px" height="24px" alt="Барбершоп">
+            </li>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a class="this-page">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
           </ul>
+        </nav>
+        <div class="user-block">
+          <a class="user-login" href="#">Вход</a>
         </div>
       </div>
-    </div>
-  </main>
-  <footer class="container">
-    <div class="container">
-      <div class="footer-contacts">
-        Барбершоп "Бородинский"
-        <br> Адрес: г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
-        <br>
-        <a href="">Как нас найти?</a>
-        <br> Телефон: +7(495)666-02-66
+    </header>
+    <main class="clearfix">
+      <div class="container">
+        <h1 class="product-type-page-name">Набор для путешествий "Baxter of California"</h1>
+        <nav class="breadcrumbs">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Cредства для ухода</a></li>
+            <li><a class="breadcrumbs-active">Набор для путешествий "Baxter of California"</a></li>
+          </ul>
+        </nav>
+        <div class="item-page">
+          <div class="item-photos">
+            <img src="img/catalog-item/bigphoto.jpg" width="460px" height="498px" class="big-product-photo" alt='Набор для путешествий "Baxter of California"'>
+            <div class="item-photos-mini clearfix">
+              <img src="img/catalog-item/small_photo-1.jpg" width="140px" height="149px" class="mini-product-photo" alt='Набор для путешествий "Baxter of California"'>
+              <img src="img/catalog-item/small_photo-2.jpg" width="140px" height="149px" class="mini-product-photo" alt='Набор для путешествий "Baxter of California"'>
+              <img src="img/catalog-item/small_photo-3.jpg" width="140px" height="149px" class="mini-product-photo" alt='Набор для путешествий "Baxter of California"'>
+            </div>
+          </div>
+          <div class="item-info">
+            <div class="item-vailability">Есть в наличии</div>
+            <div class="item-vendor-code">Артикул: DEXTER-AE</div>
+            <p class="item-description">Travel Kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бриться, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
+            <div class="buy-section clearfix">
+              <b class="product-price">2 900 руб.</b>
+              <a href="#" class="buy-btn">Купить</a>
+            </div>
+            <div class="item-including">
+              <h2>В набор входят:</h2>
+              <ul>
+                <li><span>Средство для умывания (50 мл)</span></li>
+                <li><span>Увлажняющий крем (50 мл)</span></li>
+                <li><span>Крем для бритья (50 мл)</span></li>
+                <li><span>Крем после бритья, шампунь (50 мл)</span></li>
+                <li><span>Удобная кожаная косметичка</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="footer-social">
-        <p>Давайте дружить!</p>
-        <a class="social-btn social-btn-vk" href="#"><span class="social-text">ВКонтакте</span></a>
-        <a class="social-btn social-btn-fb" href="#"><span class="social-text">Фэйсбук</span></a>
-        <a class="social-btn social-btn-inst" href="#"><span class="social-text">Инстаграм</span></a>
-        <a class="social-btn social-btn-new"></a>
+    </main>
+    <footer class="main-footer">
+      <div class="container clearfix">
+        <div class="footer-contacts">
+          Барбершоп "Бородинский"
+          <br> Адрес: г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8
+          <br>
+          <a href="">Как нас найти?</a>
+          <br> Телефон: +7(495)666-02-66
+        </div>
+        <div class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#"><span class="social-text">ВКонтакте</span></a>
+          <a class="social-btn social-btn-fb" href="#"><span class="social-text">Фэйсбук</span></a>
+          <a class="social-btn social-btn-inst" href="#"><span class="social-text">Инстаграм</span></a>
+          <a class="social-btn social-btn-new"></a>
+        </div>
+        <div class="footer-copyrights">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </div>
       </div>
-      <div class="footer-copyrights">
-        <p>Разработано:</p>
-        <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-      </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
 
 </html>
